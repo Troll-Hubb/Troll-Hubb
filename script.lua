@@ -82,7 +82,7 @@ else
 end
 
 -- Settings [ Main ]
-local Main = Adroid == Smartphone:NewTab("Main")
+local Main = Window:NewTab("Main")
 local Mainsection = Tab:NewSection("Mainsection")
 
     Mainsection:NewButton("SelectWeapon" function()
@@ -1199,7 +1199,7 @@ _G.Settings.AutoQuestPlayes = false -- true / false Auto Quest Playes
 end)
 
 -------------racev4-------------
-local Main = Adroid == Smartphone:NewTab("RaceV4")
+local Main = Window:NewTab("RaceV4")
 local RaceV4section = Tab:NewSection("RaceV4section")
 
 getgenv().Toggled = false
@@ -1266,7 +1266,7 @@ _G.Settings.EnabledHopMystic = false -- true / false Enabled Hop Mystic
 end)
 
 -------------island-------------
-local Main = Adroid == Smartphone:NewTab("island")
+local Main = Window:NewTab("island")
 local islandsection = Tab:NewSection("islandsection")
 
 islandsection:NewButton("SelectIsland" function()
@@ -1287,7 +1287,7 @@ _G.Settings.TeleportIsland = false -- true / false Teleport Island
 end)
 
 --------------start-------------
-local Main = Adroid == Smartphone:NewTab("Start")
+local Main = Window:NewTab("Start")
 local Startsection = Tab:NewSection("Startsection")
 
 getgenv().Toggled = false
@@ -1369,7 +1369,7 @@ _G.Settings.AutoDevilFruits = false -- true / false Auto DevilFruits
 end)
 
 -----------------Raid-----------------
-local Main = Adroid == Smartphone:NewTab("Raid")
+local Main = Window:NewTab("Raid")
 local Raidsection = Tab:NewSection("Raidsection")
 
 
@@ -1498,7 +1498,7 @@ _G.Settings.AutoDevilFruits = false -- true / false Auto Devil Fruits
 end)
 
 -------------Players---------------
-local Main = Adroid == Smartphone:NewTab("Players")
+local Main = Window:NewTab("Players")
 local Playersection = Tab:NewSection("Playersection")
 
 player
@@ -1581,7 +1581,7 @@ _G.Settings.ESPMystic = false -- true / false ESP Mystic
 end)
 
 --------------------combat---------------------
-local Main = Adroid == Smartphone:NewTab("Combat")
+local Main = Window:NewTab("Combat")
 local combatsection = Tab:NewSection("combatsection")
 
 combatsection:NewButton("SelectPlayers" function()
