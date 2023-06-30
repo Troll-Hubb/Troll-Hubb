@@ -1,2 +1,29 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Troll-Hub", "DarkTheme")
+
+local Window = OrionLib:MakeMobile({
+    HidePremium = true,
+     IntroEnabled = false ,
+      IntroText = "Troll-Hub" , 
+       SaveConfig = true,
+        ConfigFolder = "OrionTest"
+})
+
+--values--
+
+--tab
+local Tab = Window:NewTab("Main")
+local Tab = Window:NewTab("Start")
+local Tab = Window:NewTab("Raid")
+local Tab = Window:NewTab("Combat")
+local Tab = Window:NewTab("IsLand")
+local Tab = Window:NewTab("Miscellneous")
+--toggle 
+
+
+
+
+
+
+OrionLib:Init()
+
