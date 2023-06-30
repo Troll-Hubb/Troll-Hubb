@@ -1,9 +1,8 @@
 local PlaceId = game.PlaceId
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
 	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-   	local Window = OrionLib:MakeWindow({Name = "Troll-Hub", HidePremium = false, IntroEnabled = false , IntroText = "Troll-Hub" SaveConfig = true, ConfigFolder = "OrionTest"})
-
-
+   local Window = OrionLib:MakeWindow({Name = "Troll-Hub", HidePremium = false, IntroEnabled = false , IntroText = "Troll-Hub" SaveConfig = true, ConfigFolder = "OrionTest"})
+   local Window = OrionLib:MakeMobile({Name = "Troll-Hub", HidePremium = true, IntroEnabled = false , IntroText = "Troll-Hub" SaveConfig = true, ConfigFolder = "OrionTest"})
 
 
 
