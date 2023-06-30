@@ -1,24 +1,4 @@
 local PlaceId = game.PlaceId
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
 	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-   	local Window = Library.CreateLib("Troll-Hub", "DarkTheme")
-	local Window = OrionLib:MakeWindow({Name = "Troll-Hub | Blox Fruit ", HidePremium = false, InTroEnabled = false , IntroText = "Troll-Hub" , SaveConfig = true, ConfigFolder = "OrionTest"})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-end
-OrionLib:Init()
+   local Window = Library.CreateLib("Troll-Hub", "DarkTheme")
