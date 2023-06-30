@@ -761,7 +761,7 @@ end
 if _G["Troll-Hub Config | A Click To Max [AKA] kaitun/cut tay"] or _G.Troll_autoBounty or getgenv().Raid_Config or getgenv().SearchHopConfig or getgenv().Chest_Config or getgenv().Fruit_Config or getgenv().PVP_SUPPORT then
    return
 end
-local path = "loadstring(game:HttpGet(''))()"
+local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Troll-Hubb/Troll-Hubb/main/ScriptLoad.lua'))()"
 if getgenv().Key then
    path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 end
