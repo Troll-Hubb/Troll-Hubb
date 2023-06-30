@@ -1,10 +1,2 @@
-local PlaceId = game.PlaceId
-if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 
-   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-   local Window = OrionLib:MakeMobile({
-    HidePremium = true,
-     IntroEnabled = false ,
-      IntroText = "Troll-Hub" , 
-       SaveConfig = true,
-        ConfigFolder = "OrionTest"
-})
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Troll-Hub", "DarkTheme")
