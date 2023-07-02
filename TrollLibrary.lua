@@ -146,7 +146,7 @@ function Troll0.CreateWindow(libName, logoId)
     hubLogo.Image = "rbxassetid://13927269960"..logoId
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
-    MainCorner_2.Name = "MainCorner2"
+    MainCorner_2.Name = "MainCorner"
     MainCorner_2.Parent = hubLogo
 
     hubName.Name = "Troll-Hub"
