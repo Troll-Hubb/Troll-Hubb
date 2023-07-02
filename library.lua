@@ -1,7 +1,7 @@
-local Luxt1 = {}
+local Troll0 = {}
 
-function Luxt1.CreateWindow(libName, logoId)
-    local LuxtLib = Instance.new("ScreenGui")
+function Troll0.CreateWindow(libName, logoId)
+    local TrollLib = Instance.new("ScreenGui")
     local shadow = Instance.new("ImageLabel")
     local MainFrame = Instance.new("Frame")
     local sideHeading = Instance.new("Frame")
@@ -48,10 +48,10 @@ function Luxt1.CreateWindow(libName, logoId)
     game:GetService("UserInputService").InputBegan:connect(function(current, ok) 
         if not ok then 
             if current.KeyCode.Name == oldKey then 
-                if LuxtLib.Enabled == true then
-                    LuxtLib.Enabled = false
+                if TrollLib.Enabled == true then
+                    TrollLib.Enabled = false
                 else
-                    LuxtLib.Enabled = true
+                    TrollLib.Enabled = true
                 end
             end
         end
@@ -106,13 +106,13 @@ function Luxt1.CreateWindow(libName, logoId)
     pageFolder.Parent = framesAll
 
     --
-    libName = libName or "LuxtLib"
-    logoId = logoId or ""
+    libName = libName or "TrollLib"
+    logoId = logoId or "13927269960"
     --
 
-    LuxtLib.Name = "TrollLib"..libName
-    LuxtLib.Parent = game.CoreGui
-    LuxtLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    TrollLib.Name = "TrollLib"..libName
+    TrollLib.Parent = game.CoreGui
+    TrollLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
@@ -137,19 +137,19 @@ function Luxt1.CreateWindow(libName, logoId)
     sideCover.Position = UDim2.new(0.909677446, 0, 0, 0)
     sideCover.Size = UDim2.new(0, 14, 0, 452)
 
-    hubLogo.Name = "hubLogo"
+    hubLogo.Name = "TrollLogo"
     hubLogo.Parent = sideHeading
     hubLogo.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "rbxassetid://"..logoId
+    hubLogo.Image = "rbxassetid://13927269960"..logoId
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
     MainCorner_2.Parent = hubLogo
 
-    hubName.Name = "hubName"
+    hubName.Name = "Troll-Hub"
     hubName.Parent = sideHeading
     hubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubName.BackgroundTransparency = 1.000
@@ -221,7 +221,7 @@ function Luxt1.CreateWindow(libName, logoId)
     framesAll.ZIndex = 2
 
     shadow.Name = "shadow"
-    shadow.Parent = LuxtLib
+    shadow.Parent = TrollLib
     shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     shadow.BackgroundTransparency = 1.000
     shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
@@ -1260,5 +1260,4 @@ function Luxt1.CreateWindow(libName, logoId)
     return TabHandling
 end
 
-return Luxt1
-GUI
+return Troll0
