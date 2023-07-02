@@ -127,7 +127,7 @@ function Troll0.CreateWindow(libName, logoId)
     sideHeading.ZIndex = 2
 
     MainCorner.CornerRadius = UDim.new(0, 5)
-    MainCorner.Name = "MainCorner"
+    MainCorner.Name = "Troll-Hub"
     MainCorner.Parent = sideHeading
 
     sideCover.Name = "sideCover"
@@ -146,7 +146,7 @@ function Troll0.CreateWindow(libName, logoId)
     hubLogo.Image = "rbxassetid://13927269960"..logoId
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
-    MainCorner_2.Name = "MainCorner"
+    MainCorner_2.Name = "by baonopro"
     MainCorner_2.Parent = hubLogo
 
     hubName.Name = "Troll-Hub"
@@ -270,7 +270,7 @@ function Troll0.CreateWindow(libName, logoId)
         tabLogo.BorderSizePixel = 0
         tabLogo.Size = UDim2.new(0, 25, 0, 25)
         tabLogo.ZIndex = 2
-        tabLogo.Image = "rbxassetid://"..tabId
+        tabLogo.Image = "rbxassetid://13927269960"..tabId
         tabLogo.ImageColor3 = Color3.fromRGB(153, 255, 238)
         --
 
@@ -1261,3 +1261,4 @@ function Troll0.CreateWindow(libName, logoId)
 end
 
 return Troll0
+ui
