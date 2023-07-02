@@ -143,13 +143,13 @@ function Luxt1.CreateWindow(libName, logoId)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "rbxassetid://13927269960"..logoId
+    hubLogo.Image = "rbxassetid://"..logoId
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
     MainCorner_2.Parent = hubLogo
 
-    hubName.Name = "Troll-Hub"
+    hubName.Name = "hubName"
     hubName.Parent = sideHeading
     hubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubName.BackgroundTransparency = 1.000
@@ -270,7 +270,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabLogo.BorderSizePixel = 0
         tabLogo.Size = UDim2.new(0, 25, 0, 25)
         tabLogo.ZIndex = 2
-        tabLogo.Image = "rbxassetid://13927269960"..tabId
+        tabLogo.Image = "rbxassetid://"..tabId
         tabLogo.ImageColor3 = Color3.fromRGB(153, 255, 238)
         --
 
