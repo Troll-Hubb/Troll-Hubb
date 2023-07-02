@@ -240,7 +240,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
         --
         tabText = tabText or "Tab"
-        tabId = tabId or "Id"
+        tabId = tabId or ""
 
         tabBtnFrame.Name = "tabBtnFrame"
         tabBtnFrame.Parent = tabFrame
