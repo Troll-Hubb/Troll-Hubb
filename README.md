@@ -1,2 +1,2 @@
-this file war deleted
+this file was deleted
 
