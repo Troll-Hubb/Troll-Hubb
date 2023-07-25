@@ -2,7 +2,7 @@ local lp = game.Players.LocalPlayer
 local function getNPC()
     local dist, thing = math.huge
     for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
-        if v.Name == "Galley Pirates [lv. 625]" then
+        if v.Name == "Bandit [Lv. 5]" then
             local mag = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).magnitude
             if mag < dist then 
                 dist = mag 
@@ -43,8 +43,8 @@ local function moveto(obj, speed)
     end)
 end
 
-getgenv().Galley Pirates = true
-while Galley Pirates do task.wait()
+getgenv().bandit = true
+while bandit do task.wait()
     pcall(function()
         moveto(getNPC().HumanoidRootPart.CFrame + Vector3.new(0,0,0), 100)
         game:GetService("VirtualUser"):ClickButton1(Vector2.new(9e9, 9e9))
